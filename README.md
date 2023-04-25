@@ -7,6 +7,6 @@
 
 
 
-=======
+### Пример игры
 [![asciicast](https://asciinema.org/a/580561.svg)](https://asciinema.org/a/580561)
 
