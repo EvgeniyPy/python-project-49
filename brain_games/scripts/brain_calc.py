@@ -1,20 +1,9 @@
-from brain_games.scripts import letscalc
+from brain_games.games import letscalc
+from brain_games.game_engine import launch_game
 
 
 def main():
-    print("Welcome to the Brain Games!")
-    _name = letscalc.welcome_user()
-    
-    print('What is the result of the expression?')
-    _calc = letscalc.lets_play(_name)
-    print(_calc)
-    
-   
-   
-
-
-
-   
+    launch_game(letscalc)
 
 
 if __name__ == '__main__':

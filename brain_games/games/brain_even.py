@@ -1,4 +1,4 @@
-from brain_games.games import letseven
+from brain_games.scripts import letseven
 from brain_games.game_engine import launch_game
 
 
