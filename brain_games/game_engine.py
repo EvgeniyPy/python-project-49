@@ -12,8 +12,8 @@ def launch_game(game):
 
     while SCORE < WIN_SCORE:
         correct_answer, question = game.lets_play()
-        print(f'Qusetions: {question}')
-        player_answer = prompt.string('You answer: ')
+        print(f'Qusetion: {question}')
+        player_answer = prompt.string('Your answer: ')
 
         if player_answer == correct_answer:
             print('Correct')
