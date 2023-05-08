@@ -5,7 +5,7 @@ WIN_SCORE = 3
 def launch_game(game):
     print("Welcome to the Brain Games!")
     name = prompt.string('May I have your name?:')
-    print(f'Hello, {name}')
+    print(f'Hello, {name}!')
     print(game.RULE_OF_GAME)
 
     SCORE = 0
