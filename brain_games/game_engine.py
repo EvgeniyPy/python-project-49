@@ -12,7 +12,7 @@ def launch_game(game):
 
     while SCORE < WIN_SCORE:
         correct_answer, question = game.lets_play()
-        print(f'Qusetion: {question}')
+        print(f'Question: {question}')
         player_answer = prompt.string('Your answer: ')
 
         if player_answer == correct_answer:
