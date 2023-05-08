@@ -9,4 +9,4 @@ def lets_play():
     b = randint(1, 100)
     question = f"{a} {b}"
     correct_answer = str(gcd(a, b))
-    return  correct_answer, question
+    return correct_answer, question

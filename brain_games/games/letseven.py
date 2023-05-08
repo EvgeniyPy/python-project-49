@@ -8,11 +8,7 @@ def is_even(question):
     return right_answer
 
 
-
-
 def lets_play() -> str:
     question = randint(1, 100)
     correct_answer = is_even(question)
-    return  correct_answer, question
-    
-
+    return correct_answer, question
