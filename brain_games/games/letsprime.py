@@ -7,7 +7,7 @@ RULE_OF_GAME = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 def is_prime(a):
     number_sqrt = int(math.sqrt(a))
     divisors = range(2, (number_sqrt + 1))
-# Если число не простое, то в отрезке от 1 до квадратного корня числа, точно будут его делители.
+
     for element in divisors:
         if a % element == 0:
             return 'no'
