@@ -1,7 +1,7 @@
 from random import randint, choice
 from operator import add, sub, mul
 
-rule_of_game = 'What is the result of the expression?'
+RULE_OF_GAME = 'What is the result of the expression?'
 
 
 def lets_play():

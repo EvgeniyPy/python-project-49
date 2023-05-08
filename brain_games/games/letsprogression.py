@@ -1,7 +1,7 @@
 from random import randint
 
 
-rule_of_game = "What number is missing in the progression?"
+RULE_OF_GAME = "What number is missing in the progression?"
 
 
 def lets_play():
