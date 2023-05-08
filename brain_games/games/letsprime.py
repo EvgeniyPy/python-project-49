@@ -1,7 +1,7 @@
 from random import randint 
 import math
 
-RULE_OF_GAME = 'Answer "yes" if given number is prime. Otherwise answer "no"'
+RULE_OF_GAME = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 def is_prime(a):
         number_sqrt = int(math.sqrt(a)) 
