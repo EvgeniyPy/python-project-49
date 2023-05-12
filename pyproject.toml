@@ -4,6 +4,12 @@ version = "0.1.0"
 description = "This is a small project with games based on logic and mathematics"
 authors = ["evgiy"]
 readme = "README.md"
+classifiers = [
+    "Topic :: Games/Entertainment",
+    "Programming Language :: Python :: ^3.10",
+    "Operating System :: MANJARO :: Linux",
+]
+
 packages = [
   { include = "brain_games" },
 ]
