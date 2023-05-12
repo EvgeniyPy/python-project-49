@@ -4,7 +4,11 @@ from random import randint
 RULE_OF_GAME = "What number is missing in the progression?"
 
 
-def lets_play():
+def get_random_progression():
+    pass
+
+
+def get_game():
     """Функция создае рандомную прогресиию
     и возвращает ее с пропущенным элементом(...)"""
     start = randint(1, 50)

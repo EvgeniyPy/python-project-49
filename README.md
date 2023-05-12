@@ -11,6 +11,13 @@ This is a collection of five mathematically based simple games that are designed
 * GCD (Greatest Common Divisor)
 * Calculator
 
+### Requirements
+
+* OS: Linux, MAcOS, WSL (Windows Subsystem for Linux)
+
+* Python 3.10
+* Poetry (version 1.4.2)
+
 
 # Installation
 
@@ -22,7 +29,11 @@ This is a collection of five mathematically based simple games that are designed
 
 `cd python-project-49`
 
-3. Run one of the games
+3. Run `make package-install` for setup
+
+4. Run `brain-games` (If everything installed correct, you will see greeting message.)
+
+5. Run one of the games
 
 `brain-even`
 
