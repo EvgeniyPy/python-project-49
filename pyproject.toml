@@ -7,7 +7,7 @@ readme = "README.md"
 classifiers = [
     "Topic :: Games/Entertainment",
     "Programming Language :: Python :: ^3.10",
-    "Operating System :: MANJARO :: Linux",
+    "Operating System :: MANJARO :: Linux"
 ]
 
 packages = [
